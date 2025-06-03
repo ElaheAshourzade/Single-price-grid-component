@@ -1,0 +1,127 @@
+
+html{
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+h2 , h3 , h4 , p{
+    margin: 0;
+}
+
+body{
+
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* , *:before, *:after{
+    box-sizing: inherit;
+}
+#card{
+   width: 600px; 
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+#top-section{
+    width:100%;
+    height: 40%;   
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#top-section p{
+    color: #8994ac;
+}
+#top-section h2{
+    color:  #43aca8;
+}
+#top-section h3{
+  color: hsl(71, 73%, 54%);
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 60%;   
+}
+#left
+{
+    width:50%;
+    height: 100%;
+    background-color: #2bb3b1;
+    padding-top: 10px;
+    padding-left: 30px;
+    justify-content: space-between;
+    color: #e5ffff;
+}
+
+#left h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+#left h5{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+#left .price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+}
+ #left .period{    
+    color: 	 #e5ffff93;
+    position: relative;
+    top: -4px
+ }
+
+ #left button {
+    margin-top: 20px;
+    width: 90%;
+    height: 25%;
+    background-color: hsl(71, 73%, 54%);
+    color: #e5ffff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: font-size 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #left button:hover {
+    font-size: 20px;
+    background-color: hsl(71, 78%, 61%);
+    transform: scale(1.05);
+  }
+  
+  #right
+{
+    width:50%;
+    height: 100%;
+    background-color: #4abebd;
+    justify-content: space-between;
+    padding: 20px;
+    color: 	#e5ffff;
+}
+#right ul{
+    padding-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    color: 	#e5ffffbd;
+}
